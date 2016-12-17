@@ -5,7 +5,6 @@ description: Как украсить коляску
 date: '2015-06-15 18:00'
 comments: true
 categories: LEGO Поделки Лего
-icon: 2_icon.png
 ---
 
 ![LEGO вертолет](/images/photo/2/main.jpg)

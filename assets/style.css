@@ -65,6 +65,11 @@ article a.bigscreen>img {
     margin: 20px auto;
 }
 
+.entry img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
 .entry img.logo {
     float: right;
     max-width: 200px;

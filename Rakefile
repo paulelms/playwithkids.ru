@@ -44,7 +44,7 @@ task :pingomatic do
   begin
     require 'xmlrpc/client'
     puts '* Pinging ping-o-matic'
-    XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'playwithkids.ru' , 'http://playwithkids.ru', 'http://feeds.feedburner.com/vyazovoi')
+    XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'playwithkids.ru' , 'http://playwithkids.ru', 'http://feeds.feedburner.com/playwithkids')
       rescue LoadError
     puts '! Could not ping ping-o-matic, because XMLRPC::Client could not be found.'
   end
@@ -56,7 +56,7 @@ task :yandex do
   begin
     require 'xmlrpc/client'
     puts '* Pinging yandex'
-    XMLRPC::Client.new('ping.blogs.yandex.ru', '/RPC2').call('weblogUpdates.extendedPing', 'playwithkids.ru' , 'http://playwithkids.ru', 'http://feeds.feedburner.com/vyazovoi')
+    XMLRPC::Client.new('ping.blogs.yandex.ru', '/RPC2').call('weblogUpdates.extendedPing', 'playwithkids.ru' , 'http://playwithkids.ru', 'http://feeds.feedburner.com/playwithkids')
   rescue LoadError
     puts '! Could not ping yandex, because XMLRPC::Client could not be found.'
   end
@@ -95,7 +95,7 @@ task :ping do
     require 'cgi'
     require 'net/http'
     puts '* Pinging pubsubhubbub server'
-    data = 'hub.mode=publish&hub.url=' + CGI::escape("http://feeds.feedburner.com/vyazovoi")
+    data = 'hub.mode=publish&hub.url=' + CGI::escape("http://feeds.feedburner.com/playwithkids")
     http = Net::HTTP.new('pubsubhubbub.appspot.com', 80)
     resp, data = http.post('http://pubsubhubbub.appspot.com/publish',
             data,

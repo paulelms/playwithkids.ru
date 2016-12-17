@@ -2,7 +2,7 @@
 layout: post
 title: Как сделать игрушечные наушники для маскарадного костюма
 description: Наряжаем ребенка в пилота, костюм пилота
-date: '2015-06-15 18:00'
+date: '2015-06-29 10:00'
 comments: true
 categories: Поделки
 icon: 3_icon.png
