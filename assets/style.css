@@ -68,6 +68,9 @@ article a.bigscreen>img {
 .entry img {
     max-width: 500px;
     max-height: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .entry img.logo {
