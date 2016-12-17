@@ -1,0 +1,197 @@
+/*.icns{
+    vertical-align: middle;
+    line-height:  15px;
+}
+img.icns {
+    height: 15px;
+    padding-left: 30px;
+}
+
+article a.screenshot>img {
+    width: 400px;
+}*/
+
+.front-photo {
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*html {
+    background-color: #DEDEDE;
+}*/
+
+body, h1, h2, h3, h4, h5 {
+    font-family: 'PT Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+article {
+    max-width: 760px;
+    font-size: 17px;
+    line-height: 1.5em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.nav li>a>i.fa.pull-right {
+    line-height: 1.428571429;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.dropdown li>a>i.fa.pull-right {
+    margin-right: 0;
+}
+
+h2.post-title {
+    font-size: 1.4em;
+}
+h1.post-title {
+    font-size: 1.4em;
+}
+
+article a.screenshot>img {
+    max-height: 250px;
+    margin: 10px auto;
+}
+article a.bigscreen {
+    margin: 0 auto;
+}
+article a.bigscreen>img {
+    max-height: none;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.entry img.logo {
+    float: right;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:767px) {
+    .entry img.logo {
+        float: right;
+        max-width: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    article a.screenshot>img {
+        max-width: 170px;
+    }
+}
+
+div.entry {
+    min-height: 210px;
+}
+
+.share-buttons a {
+    margin-left: 15px;
+}
+
+.st-snippet em {
+    color: #d44950;
+}
+
+/* Заголовки внутри статьи */
+
+.entry h2 {
+    font-size: 1.3em;
+}
+.entry h3 {
+    font-size: 1.1em;
+}
+
+.plitka {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.contacts-icons {
+    font-size: 32px;
+    color: #afaeb0;
+}
+.contacts-icons:hover {
+    color: #2a6496;
+}
+.contacts-icons a {
+    color: #afaeb0;
+}
+.contacts-icons a:hover {
+    color: #2a6496;
+}
+#phone-hidden {
+    display: none;
+}
+.contacts-icons i:hover {
+    text-shadow: 1px 0px 1px black;
+}
+.contacts-icons .fa-phone-square {
+    color: #5FC244;
+}
+.contacts-icons .fa-envelope {
+    color: #D64A3D;
+}
+.contacts-icons .fa-twitter-square {
+    color: #1DADEB;
+}
+.contacts-icons .fa-github-square {
+    color: #333333;
+}
+.contacts-icons .fa-facebook-square {
+    color: #3B5A96;
+}
+.contacts-icons .fa-skype {
+    color: #1EAEF0;
+}
+
+.fstyled {
+    font-family: 'PT Sans', Arial;
+    font-size: 1.2em;
+}
+
+
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    /*display: none;*/
+    background-color: #D7D6D9;
+    width: 100%;
+    overflow: hidden;
+    height: 60px;
+    margin-left: -4px;
+    color: #000;
+    padding: 5px;
+    font-size: 0.9em;
+
+    -moz-border-radius-bottomleft:4px;
+    -webkit-border-bottom-left-radius:4px;
+    border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright:4px;
+    -webkit-border-bottom-right-radius:4px;
+    border-radius-bottomright: 4px;
+
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.bydefault {
+    /*display: inline-block !important;*/
+    opacity: 0.6;
+}
+
+.slider.hover .hover-text {
+    /*display: inline-block !important;*/
+    opacity: 0.9 !important;
+}
+
+.slider > a {
+    position: relative;
+}
+
+.smaller {
+    font-size: 0.8em;
+}

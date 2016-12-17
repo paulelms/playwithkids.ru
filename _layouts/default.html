@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" itemscope itemtype="http://schema.org/Article">
+{% include head.html %}
+
+    <body>
+
+        <header>
+            {% include nav.html %}
+        </header>
+
+        <main>
+            <div id="st-results-container" class="container" style="margin-bottom: 20px;">
+
+                {{ content }}
+
+            </div>
+
+            <div class="clearfix"></div>
+
+        </main>
+        
+        <footer>
+            {% include footer.html %}
+        </footer>
+
+        {% include js.html %}
+
+    </body>
+
+</html>

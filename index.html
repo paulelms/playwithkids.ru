@@ -1,0 +1,53 @@
+---
+title: Павел Вязовой
+layout: default
+---
+
+<div class="row">
+
+	<div class="col-md-4 col-lg-4 fstyled">
+
+		<div class="row">
+			<div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+				<img src="/images/logo.png" alt="логотип" title="Поиграйте с детьми!" class="img-responsive front-photo hidden-xs hidden-sm" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+				<p>Привет, скоро что-то будет!</p>
+				<p>Подробнее обо этом блоге вы можете прочитать <a href="/about.html">здесь</a>.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-8 col-lg-8">
+		<div class="row">
+		{% for post in site.posts limit:11 %}
+		{% if forloop.index == 5 or forloop.index == 9 %}</div><div class="row">{% endif %}
+			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 slider" ontouchstart="this.classList.toggle('hover');">
+				<a href="{{ post.url }}" title="{{ post.title }}" class="thumbnail">
+					{% if post.icon %}
+						<img src="/images/articles/{{ post.icon }}" alt="{{ post.title }}" class="plitka">
+						<span class="hover-text">{{ post.title }}</span>
+					{% else %}
+						<img src="/images/placeholder.gif" alt="{{post.title}}" width="200" height="200" class="plitka" />
+						<span class="hover-text bydefault">{{ post.title }}</span>
+					{% endif %}
+				</a>
+			</div>
+		{% endfor %}
+
+		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 slider" ontouchstart="this.classList.toggle('hover');">
+			<a href="/blog" title="Все записи блога" class="thumbnail">
+				<img src="/images/more.gif" alt="Все записи блога" width="200" height="200" class="plitka" />
+			</a>
+		</div>
+
+		</div>
+	</div>
+
+</div>
+
+<div class="clearfix"></div>

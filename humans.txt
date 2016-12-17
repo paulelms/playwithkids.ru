@@ -1,0 +1,13 @@
+# TEAM
+
+    Marina Elms -- @marina_elms
+    Pavel Vyazovoi aka Paul Elms -- @vyazovoi
+
+# TECHNOLOGY
+
+    Jekyll
+
+# SITE
+
+    Language: Russian
+    Dev. Tools: GNU/Emacs, Tower, macOS, Working Copy, 1Writer, iOS

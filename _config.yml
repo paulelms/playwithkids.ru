@@ -1,0 +1,9 @@
+name: "PlayWithKids"
+description: "Играем и развиваемся, игры, игрушки и занятия с детьми, детское творчество"
+author: "Марина Вязовая"
+author_email: "marina@elms.pro"
+category_dir: categories
+url: http://playwithkids.ru
+permalink: /:year/:month/:day/:title/
+gems:
+  - jekyll-sitemap
