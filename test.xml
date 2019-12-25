@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <item turbo="true">
+            <link>http://playwithkids.ru/test</link>
+            <turbo:content>
+                <![CDATA[
+                    <!-- Содержимое страницы -->
+                    <!-- Шапка -->
+                    <header>
+                        <h1>BRITAX RÖMER Kid II</h1>
+                    </header>
+                    <!-- Контентная часть -->
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut iaculis augue eget diam laoreet laoreet. Cras suscipit justo nec ante pellentesque laoreet id a nunc. Fusce vitae ultricies dui. Nunc ac ante vehicula, luctus arcu ac, commodo quam. In hac habitasse platea dictumst. Nullam dapibus sapien a mollis tempus. Sed non lorem pulvinar massa tempor elementum.
+                    </p>
+                    <img src="/images/photo/2/windows_2.jpg"/>
+                    <p>
+                      Fusce nec lobortis quam. Aliquam quis scelerisque ipsum, sit amet pellentesque quam. Nulla ut lorem felis. Donec mattis mattis nibh. Morbi tincidunt molestie nisl in dignissim. Nam aliquam nisl mauris, id tempus risus faucibus sit amet. Duis semper eros sed ligula interdum, efficitur convallis nibh sodales. Nullam pellentesque odio id finibus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris et dictum magna. Cras in justo lacinia, tempus nibh in, rutrum erat. Maecenas consequat, sem sit amet vestibulum bibendum, elit sapien scelerisque neque, quis convallis lacus orci ac lorem. Vivamus dapibus facilisis arcu, et finibus lorem. Praesent at velit libero. In ultricies laoreet volutpat.
+                    </p>
+                    <p>
+                      Quisque rhoncus rhoncus mauris, et tempus turpis convallis nec. Sed consectetur eu ante id rutrum. Cras in vestibulum enim. Fusce vestibulum ligula lacus, sit amet tincidunt leo faucibus in. Sed consequat feugiat lectus a porta. Vivamus a aliquet turpis. Fusce iaculis, ante dignissim suscipit elementum, turpis augue ultricies velit, nec pulvinar nisl dolor eu arcu.
+                    </p>
+                    <p>
+                      Cras pretium pellentesque cursus. Nulla facilisi. Nullam eu velit hendrerit libero pharetra laoreet hendrerit eu augue. Sed lobortis, magna in cursus scelerisque, ante augue semper velit, vitae auctor ipsum magna sed risus. Ut felis tortor, auctor vitae tellus eget, varius viverra lorem. Cras imperdiet vel lectus id luctus. Sed in pellentesque nisi. Aliquam sit amet lobortis arcu. Nunc pharetra nisi vel maximus vulputate. Quisque eu tortor sollicitudin, elementum odio vel, sodales ipsum. Ut et purus vitae risus eleifend sollicitudin quis vel lorem. Aenean viverra mi a eros dignissim placerat.
+                    </p>
+                    <p>
+                      Vestibulum accumsan massa ut odio sodales, vel semper turpis cursus. Ut nibh lacus, euismod eu consectetur ut, ornare quis orci. Sed id sagittis nibh, ac efficitur lectus. Vivamus efficitur nunc vitae nisl faucibus mollis. Etiam tortor diam, dapibus ut suscipit non, porta vel odio. In gravida arcu vehicula laoreet laoreet. Praesent efficitur tortor et malesuada ornare. Curabitur facilisis, nisl sed elementum ultricies, purus quam porttitor nisi, porta ullamcorper ante lectus ut odio. Sed quis tortor magna. Integer semper metus nec urna tincidunt hendrerit. In sed ipsum sed turpis suscipit ultrices. Pellentesque varius sagittis mi, eget vulputate est fermentum ut. Integer id sapien leo. Pellentesque nec diam blandit, sagittis nisi a, dapibus neque. Aliquam vel pretium sem. Fusce sed urna quis arcu tristique interdum vel eget nibh.
+                    </p>
+                    <div data-widget-id="2ZFMF2Vv" class="smw3"></div>
+                    <noscript><a href="//socialmart.ru" title="SocialMart" target="_blank">Виджет от SocialMart</a></noscript>
+                    <script async type="text/javascript" charset="UTF-8" src="//widget.socialmart.ru/init.php?render=js&wid=2ZFMF2Vv"></script>
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>
